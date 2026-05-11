@@ -63,7 +63,7 @@ sft:
   optim: adamw_8bit
 
 sage:
-  guide: branch
+  guide: branch # random, token
   q_min: 0.6
   q_max: 1.4
   branch:

@@ -250,4 +250,3 @@ If you use this repository, please cite:
 ## Acknowledgements
 
 This code builds on the Hugging Face ecosystem, including `transformers`, `trl`, `peft`, `datasets`, `huggingface_hub`, and `math-verify`.
-# SAGE
