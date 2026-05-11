@@ -1,0 +1,34 @@
+model:
+  name: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+  output_root: outputs/models
+  full_finetune: false
+
+target:
+  include_baseline: false
+  eval_steps: false
+  model_path: null
+  model_label: null
+  model_step: 0
+  algorithms: null
+
+data:
+  datasets:
+    - MATH-500 # AIME, AMC23, Minerva
+  eval_limit: null
+
+generation:
+  k: 64
+  batch_size: 64
+  temperature: 0.3
+  top_p: 0.95
+  max_new_tokens: 6144
+
+runtime:
+  seed: 42
+  seeds:
+    - 0
+  torch_dtype: auto
+  device_map: null
+
+output:
+  json_out_path: null
