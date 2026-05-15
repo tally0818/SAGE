@@ -233,19 +233,6 @@ Model ablation with DeepSeek-R1-Distill-Qwen-7B:
 | GRPO | 0.449 | 0.771 |
 | GRPO + Branch | 0.452 | 0.774 |
 
-## Citation
-
-If you use this repository, please cite:
-
-```bibtex
-@inproceedings{lee2026sage,
-  title = {SAGE: Shaping Anchors for Guided Exploration in RLVR of LLMs},
-  author = {Lee, Chanuk and Kang, Minki and Hwang, Sung Ju},
-  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
-  year = {2026},
-  organization = {PMLR}
-}
-```
 
 ## Acknowledgements
 
