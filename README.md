@@ -1,6 +1,6 @@
 # SAGE: Shaping Anchors for Guided Exploration in RLVR of LLMs
 
-Official implementation of **SAGE: Shaping Anchors for Guided Exploration in RLVR of LLMs**.
+Official implementation of [**SAGE: Shaping Anchors for Guided Exploration in RLVR of LLMs**](https://arxiv.org/abs/2605.18864)
 
 SAGE is a framework for improving exploration in reinforcement learning with verifiable rewards (RLVR). Instead of removing the stabilizing reverse-KL anchor, SAGE reshapes the anchor distribution with a guide function `q(x, y)`, replacing the usual anchor `pi_ref` with `q * pi_ref`. This keeps the stabilizing role of reverse-KL while encouraging controlled empirical support expansion.
 
