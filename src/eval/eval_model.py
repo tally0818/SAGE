@@ -266,7 +266,7 @@ def quick_eval(model, tokenizer, cfg: dict, eval_dataset: list, seed: int):
             n_pass_at_k += 1
         n_total += 1
 
-    accuracy = (n_acc_first / n_total) if n_total else 0.0
+    accuracy = sum(correct_responses)/ n_total if n_total else 0.0
     pass_at_k = (n_pass_at_k / n_total) if n_total else 0.0
     return float(accuracy), float(pass_at_k), is_correct
 
